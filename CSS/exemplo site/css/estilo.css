@@ -113,3 +113,61 @@ body{
     box-sizing: border-box; /*calcular automaticamente o padding*/
 
 }
+
+.lateral .ultimas-noticias{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.lateral .ultimas-noticias img{
+    float: left;
+    width: 30%;
+    border: 1px solid #999;
+    box-sizing: border-box;/*calcular automaticamente o padding*/
+}
+
+.lateral .ultimas-noticias h3{
+    text-align: justify;
+    float: right;
+    width: 70%;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.lateral .menu-lateral{
+    margin-top: 40px;
+}
+
+.lateral .menu-lateral ul{
+    list-style: none;
+    padding: 0;
+
+}
+.lateral .menu-lateral ul li{
+    border-bottom: 1px dashed #ddd;
+    font-weight: bold;
+
+}
+
+.lateral .menu-lateral a{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding-left: 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+.lateral .menu-lateral ul li:hover{
+    background: #272930;
+}
+
+.lateral .menu-lateral ul a:hover{
+    color: #2d6ff7;
+    text-shadow: 2px 2px 15px #040250;
+}
+
+
