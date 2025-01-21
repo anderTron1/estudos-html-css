@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .titulo{
+            font-family: sans-serif;
+            font-size: 62px;
+            text-align: center;
+            color: #2d6ff7;
+            text-shadow: 2px 2px 5px #acc1ed;
+        }
+        .conteiner{
+            width: 70%;
+            border: 1px solid #000;
+            overflow: hidden; /*como os elementos do destaques estão como float, então colocamos o hidden*/
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .coluna{
+            float: left;
+        }
+        .coluna h3{
+            text-align: center;
+        }
+        .coluna h3:hover{
+            color: #2d6ff7;
+            cursor: grabbing;
+        }
+        .destaques{
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin: 20px 10px;
+            border-radius: 50%;
+            background: #2d6ff7;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="titulo">Evento:hover com CSS</h1>
+
+    <div class="conteiner">
+        <div class="coluna">
+            <div class="destaques"></div>
+            <h3>Destaques 1</h3>
+        </div>
+
+        <div class="coluna">
+            <div class="destaques"></div>
+            <h3>Destaques 2</h3>
+        </div>
+
+        <div class="coluna">
+            <div class="destaques"></div>
+            <h3>Destaques 3</h3>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+body{
+    background: #f2f2f2;
+    margin: 0;
+    color: #333;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+#topo{
+    background: #272930;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo{
+    color: #fff;
+    font-size: 38px;
+    text-transform: uppercase;
+    float: left;
+    padding-top: 15px;
+}
+
+.logo img{
+    vertical-align: middle;
+}
+.menu{
+    float: right;
+}
+
+.menu .nav{
+    padding: 0;
+    list-style: none;
+}
+
+.menu .nav li{
+    display: inline-block;
+    padding: 15px 15px;
+}
+
+.menu .nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu .nav li a:hover{
+    color: #2d6ff7;
+    text-shadow: 2px 2px 16px #040250;
+}
+
+#banner{
+    background: url('../imagens/anotacoes.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+#banner h2{
+    text-align: center;
+    margin: 0;
+    padding-top: 130px;
+    font-size: 62px;
+    color: #fff;
+    position: relative;
+    text-shadow: 2px 4px 10px #333;
+}
+
+#banner .filtro{
+    width: 100%;
+    height: 100%;
+    background: #333;
+    opacity: 0.4;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+#conteudo{
+    min-height: 500px;
+}
+
+#conteudo .container{
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+#conteudo .figura{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #999;
+
+}
+#conteudo .info{
+    width: 75%;
+    float: left;
+    padding: 25px 20px;
+    box-sizing: border-box; /*calcular automaticamente o padding*/
+    text-align: justify;
+    line-height: 25px;
+}
+
+#conteudo .lateral{
+    width: 25%;
+    float: right;
+    padding: 25px 15px;
+    box-sizing: border-box; /*calcular automaticamente o padding*/
+
+}

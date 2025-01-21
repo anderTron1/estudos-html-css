@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows</title>
+    <style>
+        .titulo{
+            font-family: sans-serif;
+            font-size: 62px;
+            text-align: center;
+            color: #2d6ff7;
+            text-shadow: 2px 2px 2px #000; /* deslocamento para direita 2px |  e para baixo 2px | embaçamento do sombreamento 2px */
+        }
+        .destaques{
+            width: 250px;
+            height: 250px;
+            float: left;
+            margin: 20px 10px;
+            border-radius: 50%;
+            background: #999;
+            box-shadow: inset 2px 3px 10px 3px #040; /* horizontal 2px | vertical 3px | emaçamento do sombreamento 3px | posição da sombra 5px
+                                                        inset aplica a sombra dentro do conteúdo  */
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1 class="titulo">Sombra em textos</h1>
+
+    <div class="destaques"></div>
+    <div class="destaques"></div>
+    <div class="destaques"></div>
+</body>
+</html>

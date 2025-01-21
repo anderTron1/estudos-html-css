@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        .destaque{
+            font-family: 'Pacifico', Courier, monospace;
+            font-size: 52px;
+            font-style: italic;
+            font-weight: oblique;
+            text-transform: capitalize;
+            text-decoration: underline;
+            color: rgb(30, 30, 87);
+            word-spacing: 10px;
+            text-align: center;
+        }
+        #estilo-h2{
+            text-decoration: underline overline dotted green 4px;
+        }
+        p img{
+            vertical-align: middle; 
+            /*middle: aplica um estilo para que a imagem fica centralizada na linha
+             buttom:  colocar na parte de baixo
+             top:     fica em cima da linha
+             super:   fica depois da linha a cima
+             sub:     deixa a baixo da linha*/
+        }
+        p{
+            font-size: 18px;
+            line-height: 40px;
+            letter-spacing: 2px;
+            text-align: justify;
+        }
+        .sub span{
+            vertical-align: sub;
+            font-size: 15px;
+        }
+        .super span{
+            vertical-align: super;
+            font-size: 15px;
+        }
+    </style>
+    <title>Começando com CSS</title>
+</head>
+<body>
+    <div class="content">
+        <h1 class="destaque">Começando com CSS</h1>
+        <h2 id="estilo-h2">Avançado com os estilos de texto</h2>
+        <h2 class="sub">H<span>2</span>O</h2>
+        <h2 class="super">Valor: 10 <span>10</span></h2>
+        <p>
+            Lorem Ipsum is simply dummy text of the <img src="icons/feliz.png" alt="Rosto Feliz" width=59> printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into 
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </div>
+</body>
+</html>
