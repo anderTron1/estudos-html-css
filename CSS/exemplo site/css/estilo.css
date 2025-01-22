@@ -170,4 +170,10 @@ body{
     text-shadow: 2px 2px 15px #040250;
 }
 
-
+.rodape{
+    background: #272930;
+    color: #ddd;
+    padding: 30px 10px;
+    
+    text-align: center;
+}
