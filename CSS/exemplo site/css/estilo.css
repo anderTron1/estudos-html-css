@@ -177,3 +177,9 @@ body{
     
     text-align: center;
 }
+
+.subtitle{
+    font-size: 18px;
+    color: #2d6ff7;
+    margin-top: 0;
+}
