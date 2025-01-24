@@ -183,3 +183,22 @@ body{
     color: #2d6ff7;
     margin-top: 0;
 }
+
+.contato input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    min-width: 350px;
+    background: #eeeeee;
+    margin-bottom: 10px;
+}
+
+.container label{
+    width: 100;
+    display: block;
+}
+
+.container button{
+    display: block;
+    background: #025c32;
+}
