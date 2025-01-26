@@ -40,12 +40,92 @@
                 <h1>Entre em Contato</h1>
                 <h2 class="subtitle">Fale conosco preenchendo o formulário abaixo:</h2>
                 <form class="contato" action="" method="post">
-                    <label for="">Nome:</label>
-                    <input type="text" name="nome" placeholder="Informe seu nome...">
+                    <fieldset>
+                        <legend>Dados Pessoais:</legend>
+                        <label for="">Nome:</label>
+                        <input type="text" name="nome" placeholder="Informe seu nome..." required>
 
-                    <label for="">E-mail:</label>
-                    <input type="email" name="email" placeholder="Informe seu email...">
+                        <label for="">E-mail:</label>
+                        <input type="email" name="email" placeholder="Informe seu email..." required>
 
+                        <label for="">Senha:</label>
+                        <input type="password" name="senha">
+
+                        <label for="">Idade:</label>
+                        <input type="number" name="idade">
+
+                        <label for="">Telefone:</label>
+                        <input type="tel" name="telefone">
+
+                        <label for="">Seu Site:</label>
+                        <input type="url" name="url">
+                    </fieldset>
+
+                    <label for="">Enviar arquivo</label>
+                    <input type="file" name="arquivo">
+
+                    <label for="">Ecolha uma cor</label>
+                    <input type="color" name="cor">
+
+                    <label for="">Data Nascimento</label>
+                    <input type="datetime-local" name="data">
+
+                    <label for="">Hora:</label>
+                    <input type="time" name="data">
+
+                    <label for="">Semana:</label>
+                    <input type="week" name="data">
+
+                    <label for="">Busca:</label>
+                    <input type="search" name="data">
+
+                    <label for="">Escala:</label>
+                    <input type="range" name="escala">
+
+                    <input type="hidden" name="oculto"><!--uma informação que vc quer deixar oculto-->
+                    <h4>Já teve experiência com:</h4>
+                    <label for="">
+                        PHP:
+                        <input type="checkbox" name="php" value="php">
+                    </label>
+                    
+                    <label for="">
+                        Python:
+                        <input type="checkbox" name="python" value="Python">
+                    </label>
+                    
+                    <label for="">
+                        C++:
+                        <input type="checkbox" name="c++" value="C++">
+                    </label>
+                    
+                    <h4>Qual o seu genêro:</h4>
+                    <label for="">
+                        Masculino:
+                        <input type="radio" name="sexo" value="masculino">
+                    </label>
+                    <label for="">
+                        Femenino:
+                        <input type="radio" name="sexo" value="femenino">
+                    </label>
+
+                    <label for="">Assunto:</label>
+                    <select name="assunto">
+                        <optgroup label="Duvidas">
+                            <option value="sobre-serviços">Sobre Serviços</option>
+                            <option value="como-comprar">Como Comprar</option>
+                        </optgroup>
+                        <optgroup label="Orçamento">
+                            <option value="servicos">Serviços</option>
+                            <option value="produtos">Produtos</option>
+                        </optgroup>
+                    </select>
+
+                    <textarea name="obs" placeholder="Informe as observações..."></textarea>
+
+                    <br>
+                    <input type="reset" name="cor">
+                    
                     <!-- <input class="" type="submit" name="enviar" value="Enviar"> -->
                      <button>Enviar</button>
                 </form>

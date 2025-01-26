@@ -184,7 +184,7 @@ body{
     margin-top: 0;
 }
 
-.contato input{
+.contato input, .container textarea, .container select{
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #999;
@@ -199,6 +199,29 @@ body{
 }
 
 .container button{
+    width: 200px;
+    min-width: auto;
+    border: 1px solid #333;
     display: block;
-    background: #025c32;
+    background: #2d6ff7;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 5px;
+    cursor: pointer;
 }
+
+.container input[type='color']{
+    min-width: 25px;
+    padding: 0;
+}
+
+.container input[type='checkbox']{
+    min-width: auto;
+    padding: 0;
+}
+
+.container input[type='radio']{
+    min-width: auto;
+    padding: 0;
+}
+
