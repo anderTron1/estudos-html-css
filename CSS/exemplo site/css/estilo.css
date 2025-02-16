@@ -44,6 +44,11 @@ body{
     padding: 15px 15px;
 }
 
+a{
+    text-decoration: none;
+    color: #2d6ff7;
+}
+
 .menu .nav li a{
     color: #fff;
     text-decoration: none;
@@ -104,6 +109,10 @@ body{
     box-sizing: border-box; /*calcular automaticamente o padding*/
     text-align: justify;
     line-height: 25px;
+}
+
+#conteudo .info.completa{
+    width: 100%;
 }
 
 #conteudo .lateral{
@@ -225,3 +234,89 @@ body{
     padding: 0;
 }
 
+/* Página de Contato - Formulário*/
+.contato{
+    width: 100%;
+    overflow: hidden;
+}
+
+.contato input, .contato textarea, .contato select{
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #999;
+    width: 100%;
+    max-width: 100%;
+    background: #f7f7f7;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.container textarea{
+    height: 120px;
+}
+
+.contato label{
+    width: 100%;
+    display: block;
+}
+
+.contato button{
+    display: block;
+}
+
+.contato input[type="color"]{
+    max-width: 25px;
+    padding: 0;
+}
+
+.contato input[type="image"]{
+    max-width: 50px;
+}
+
+/*Layout em coluna*/
+.info .center-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.linha{
+    overflow: hidden;
+}
+
+.linha .coluna {
+    width: 33%;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    padding: 0 20px;
+}
+.coluna .imagem{ 
+    width: 100%;
+    min-height: 180px;
+    max-height: 200px;
+    background-color: #ddd;
+    overflow: hidden; 
+    border: 1px solid #999;
+}
+.coluna h3 a{
+    color: #333;
+}
+.imagem img{
+    width: 100%;
+}
+.imagem:hover{
+    box-shadow: 2px 2px 5px #333;
+}
+
+.linha.quatro .coluna{
+    width: 25%;
+}
+
+.coluna .descricao{
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+.coluna .descricao  a{
+    color: #2d6ff7;
+}
